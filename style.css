@@ -45,7 +45,7 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;/*aqui foi adicionado uma largura máxima para esticar as box dos links, elas ficando no tamanho 100%, e quando chegar em 588px mantém.*/
+  max-width: 588px; /*aqui foi adicionado uma largura máxima para esticar as box dos links, elas ficando no tamanho 100%, e quando chegar em 588px mantém.*/
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -177,4 +177,16 @@ footer {
   padding: 24px 0;
   font-size: 14px;
   font-weight: 300;
+}
+
+/*media queries*/
+@media (min-width: 700px) {
+  /*aqui lê-se que "de 700px pra cima serão adotadas as regras a seguir"*/
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
