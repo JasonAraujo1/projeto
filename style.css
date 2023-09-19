@@ -91,15 +91,19 @@ body * {
   left: 0; /*mudei aqui para left- posição do switch lua*/
   transform: translateY(-50%);
   top: 50%;
+  animation: slide-back 0.2s;
+
   /*OBS
   Nesse caso, top: 50%; move o botão para 50% da altura do elemento #switch. No entanto, para centralizá-lo completamente, você usa transform: translateY(-50%); para ajustar o botão para cima em 50% da sua própria altura, o que efetivamente centraliza verticalmente o botão em relação ao elemento #switch.
   Portanto, o top: 50%; é usado para definir a posição inicial e o transform: translateY(-50%); é usado para fazer o ajuste necessário para centralização vertical completa. Isso mantém o botão no centro vertical do elemento #switch.*/
 }
 
 .light #switch button {
-  right: 0;
-  left: initial; /*aqui serve para definir o switch left como a maneira inicial*/
+  animation: slide-in 0.4s forwards;
+  /*left: initial; /*aqui serve para definir o switch left como a maneira inicial, mas foi trocado pelo "animaton*/
 }
+
+
 
 #switch span {
   display: flex;
@@ -182,7 +186,12 @@ footer {
 
 /*media queries*/
 /*OBS:
- media queries so funciona quando há a linha meta "name="viewpor"" no index, que faz a adaptação do conteúdo pela meta de viewport*/
+ media queries so funciona quando há a linha meta "name="viewpor"" no index, que faz a adaptação do conteúdo pela meta de viewport
+ 
+ As "at-rules" (regras @) são instruções especiais no CSS que começam com o símbolo "@" seguido de um identificador. Elas são usadas para definir configurações globais, regras condicionais e outras funcionalidades especiais no CSS. Existem várias "at-rules" diferentes em CSS, mas aqui estão algumas das mais comuns:
+
+@media: Usado para criar regras condicionais que se aplicam apenas quando determinadas condições de mídia são atendidas, como tamanhos de tela específicos. 
+*/
 @media (min-width: 700px) {
   /*aqui lê-se que "de 700px pra cima serão adotadas as regras a seguir"*/
   :root {
@@ -191,5 +200,25 @@ footer {
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/*animation*/
+@keyframes slide-in{
+  from{
+    left:0;
+  }
+  to{
+    left: 50%;
+  }
+}
+
+@keyframes slide-back{
+  from{
+   left:50%;
+  }
+
+  to{
+   left:0%;
   }
 }
