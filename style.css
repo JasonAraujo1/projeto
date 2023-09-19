@@ -29,6 +29,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 /*OBS
 O DE CIMA É O SHORHAND DISSO:
@@ -180,6 +181,8 @@ footer {
 }
 
 /*media queries*/
+/*OBS:
+ media queries so funciona quando há a linha meta "name="viewpor"" no index, que faz a adaptação do conteúdo pela meta de viewport*/
 @media (min-width: 700px) {
   /*aqui lê-se que "de 700px pra cima serão adotadas as regras a seguir"*/
   :root {
