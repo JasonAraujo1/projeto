@@ -1,4 +1,4 @@
-<h1 align="center"> DevLInks </h1>
+<h1 align="center"> DevLinks </h1>
 
 <p align="center">
 Instruído pela Rocketseat para desenvolvimento de tecnologias da web.
