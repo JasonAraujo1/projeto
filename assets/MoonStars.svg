@@ -1,64 +1,7 @@
-<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="16" height="16" fill="#1E1E1E"/>
-<g id="&#240;&#159;&#142;&#168;">
-<path d="M-1885 -1317C-1885 -1344.61 -1862.61 -1367 -1835 -1367H1176C1203.61 -1367 1226 -1344.61 1226 -1317V1590C1226 1617.61 1203.61 1640 1176 1640H-1835C-1862.61 1640 -1885 1617.61 -1885 1590V-1317Z" fill="#242424"/>
-<g id="Componentes">
-<rect x="-372" y="-977" width="1389" height="2048" rx="20" fill="black"/>
-<g id="Frame 1">
-<rect x="-252" y="-781" width="1000" height="1741" rx="20" fill="url(#paint0_linear_1437_350)"/>
-<g id="&#226;&#157;&#150; Switch">
-<g id="Switch">
-<g id="Theme=Dark mode, State=Hover / pressed" filter="url(#filter0_b_1437_350)">
-<g id="track" filter="url(#filter1_b_1437_350)">
-<rect x="-8" y="-4" width="64" height="24" rx="12" fill="white" fill-opacity="0.1"/>
-<rect x="-7.5" y="-3.5" width="63" height="23" rx="11.5" stroke="white" stroke-opacity="0.5"/>
-</g>
-<g id="handle" filter="url(#filter2_d_1437_350)">
-<rect x="-8" y="-8" width="32" height="32" rx="16" fill="white" shape-rendering="crispEdges"/>
-<g id="MoonStars">
-<path id="Vector" d="M13.5 7V4" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M15 5.5H12" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M10.5 1.5V3.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M11.5 2.5H9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M13.5436 9.53755C12.5619 9.81283 11.5247 9.82185 10.5384 9.56369C9.55205 9.30553 8.65223 8.78949 7.93131 8.06857C7.21039 7.34765 6.69436 6.44783 6.43619 5.46152C6.17803 4.47522 6.18706 3.43797 6.46233 2.4563C5.4945 2.72568 4.61413 3.24394 3.90892 3.95944C3.20371 4.67495 2.69827 5.56274 2.44295 6.53438C2.18763 7.50602 2.19133 8.52759 2.45369 9.49736C2.71605 10.4671 3.22791 11.3512 3.93829 12.0616C4.64866 12.772 5.53276 13.2838 6.50253 13.5462C7.47229 13.8086 8.49387 13.8123 9.4655 13.5569C10.4371 13.3016 11.3249 12.7962 12.0404 12.091C12.7559 11.3858 13.2742 10.5054 13.5436 9.53755Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<rect x="-12" y="-12" width="40" height="40" rx="20" stroke="white" stroke-opacity="0.2" stroke-width="8" shape-rendering="crispEdges"/>
-</g>
-</g>
-<rect x="-171.5" y="-155.5" width="839" height="247" rx="4.5" stroke="#9747FF" stroke-dasharray="10 5"/>
-</g>
-</g>
-</g>
-</g>
-</g>
-<defs>
-<filter id="filter0_b_1437_350" x="-20" y="-20" width="80" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
-<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1437_350"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1437_350" result="shape"/>
-</filter>
-<filter id="filter1_b_1437_350" x="-16" y="-12" width="80" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
-<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1437_350"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1437_350" result="shape"/>
-</filter>
-<filter id="filter2_d_1437_350" x="-24" y="-22" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="2"/>
-<feGaussianBlur stdDeviation="4"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1437_350"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1437_350" result="shape"/>
-</filter>
-<linearGradient id="paint0_linear_1437_350" x1="-252" y1="-781" x2="748" y2="-781" gradientUnits="userSpaceOnUse">
-<stop stop-color="#121214"/>
-<stop offset="0.5" stop-color="#121214"/>
-<stop offset="0.5001" stop-color="white"/>
-<stop offset="1" stop-color="white"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+  <path d="M13.5 7V4" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15 5.5H12" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10.5 1.5V3.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M11.5 2.5H9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13.5437 9.53749C12.562 9.81277 11.5248 9.82179 10.5385 9.56363C9.55217 9.30546 8.65235 8.78943 7.93143 8.06851C7.21052 7.34759 6.69448 6.44777 6.43632 5.46146C6.17816 4.47516 6.18718 3.43791 6.46245 2.45624C5.49462 2.72562 4.61425 3.24388 3.90904 3.95938C3.20383 4.67489 2.6984 5.56268 2.44307 6.53432C2.18775 7.50595 2.19145 8.52753 2.45381 9.49729C2.71617 10.4671 3.22803 11.3512 3.93841 12.0615C4.64879 12.7719 5.53289 13.2838 6.50265 13.5461C7.47241 13.8085 8.49399 13.8122 9.46563 13.5569C10.4373 13.3015 11.3251 12.7961 12.0406 12.0909C12.7561 11.3857 13.2743 10.5053 13.5437 9.53749Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
