@@ -188,7 +188,10 @@ footer {
 }
 
 /*media queries*/
+
 /*OBS:
+As media queries permitem adaptar a apresentação de um documento a diferentes dispositivos
+
  media queries so funciona quando há a linha meta "name="viewpor"" no index, que faz a adaptação do conteúdo pela meta de viewport
  
  As "at-rules" (regras @) são instruções especiais no CSS que começam com o símbolo "@" seguido de um identificador. Elas são usadas para definir configurações globais, regras condicionais e outras funcionalidades especiais no CSS. Existem várias "at-rules" diferentes em CSS, mas aqui estão algumas das mais comuns:
