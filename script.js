@@ -1,7 +1,7 @@
 function toggleMode() {
   const html = document.documentElement
   //OBS: document é a representação do nosso documento em formato de objeto java script, sempre que colocar um pontinho vou estar acessando propriedades e funcionalidades. Dentro do documento + "." eu acesso a minha tag html atraves do documentElement
-  
+
   //CONDICIONAIS PARA O SWITCH(LIGHT/NIGHT)
   if (html.classList.contains("light")) {
     html.classList.remove("light")
@@ -12,10 +12,9 @@ function toggleMode() {
 
   //html.classList.toggle('light').
   //Pois o toggle tem essa função
-  
 
   const img = document.querySelector("#profile img") //pegar a tag img
-  
+
   //CONDICIONAIS PARA O IMG(FOTO)
   if (html.classList.contains("light")) {
     //se tiver light mode, manter imagem light
