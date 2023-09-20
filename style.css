@@ -103,7 +103,9 @@ body * {
   animation: slide-in 0.4s forwards;
   /*left: initial; /*aqui serve para definir o switch left como a maneira inicial, mas foi trocado pelo "animaton*/
 }
-switch button:hover {
+
+#switch button:hover {/*padding/animação do botão*/
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -224,26 +226,4 @@ footer {
   }
 }
 
-@keyframes fade-out {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-@keyframes fade-in {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.avatar-transition {
-  animation: fade-in 0.3s ease-in-out; /* Duração e função de temporização da transição */
-  animation-fill-mode: both; /* Mantém o estado final da animação */
-  opacity: 1; /* Define a opacidade inicial */
-}
