@@ -18,7 +18,7 @@ function toggleMode() {
   //CONDICIONAIS PARA O IMG(FOTO)
   if (html.classList.contains("light")) {
     //se tiver light mode, manter imagem light
-    img.setAttribute("src", "./assets/AvatarLightMode.png")
+    img.setAttribute("src", "./projeto/assets/AvatarLightMode.png")
   } else {
     //se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/AvatarNight.png")
