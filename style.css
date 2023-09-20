@@ -104,7 +104,7 @@ body * {
   /*left: initial; /*aqui serve para definir o switch left como a maneira inicial, mas foi trocado pelo "animaton*/
 }
 
-#switch button:hover {/*padding/animação do botão*/
+#switch button:hover {/* padding/animação do botão*/
   outline: 8px solid var(--highlight-color);
 }
 
